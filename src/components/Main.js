@@ -5,6 +5,27 @@ import pic01 from '../images/pic01.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
 
+const Title = {
+  margin: '0 auto',
+  marginBottom: '30px',
+}
+
+const Resume = {
+  height: '100%',
+  display: 'flex',
+  justifyContent: 'center',
+}
+
+const pstyle = {
+  marginRight: '.5%',
+}
+
+const UL = {
+  display: 'flex',
+  justifyContent: 'space-evenly',
+  marginBottom: '30px',
+}
+
 class Main extends React.Component {
   render() {
     let close = (
@@ -29,7 +50,9 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Projects</h2>
+          <h2 style={Title} className="major">
+            Projects
+          </h2>
           <span className="image main">
             <img src={pic01} alt="" />
           </span>
@@ -63,7 +86,9 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">About</h2>
+          <h2 style={Title} className="major">
+            About
+          </h2>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
@@ -92,12 +117,16 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Resume</h2>
+          <h2 style={Title} className="major">
+            Resume
+          </h2>
+          <div style={Resume}>
+            <p style={pstyle}>
+              My resume is hosted{' '}
+              <a href="https://resume.creddle.io/resume/af7vi389zag">here</a>.
+            </p>
+          </div>
 
-          <p>
-            My resume is hosted{' '}
-            <a href="https://resume.creddle.io/resume/af7vi389zag">here</a>.
-          </p>
           {close}
         </article>
 
@@ -108,48 +137,57 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Contact</h2>
-          <form method="post" action="#">
-            <div className="field half first">
-              <label htmlFor="name">Name</label>
-              <input type="text" name="name" id="name" />
-            </div>
-            <div className="field half">
-              <label htmlFor="email">Email</label>
-              <input type="text" name="email" id="email" />
-            </div>
-            <div className="field">
-              <label htmlFor="message">Message</label>
-              <textarea name="message" id="message" rows="4" />
-            </div>
-            <ul className="actions">
-              <li>
-                <input type="submit" value="Send Message" className="special" />
-              </li>
-              <li>
-                <input type="reset" value="Reset" />
-              </li>
-            </ul>
-          </form>
-          <ul className="icons">
+          <h2 style={Title} className="major">
+            Contact
+          </h2>
+
+          <ul style={UL} className="icons">
             <li>
-              <a href="#" className="icon fa-twitter">
+              <a
+                href="https://github.com/mattwright42"
+                className="icon fa-github"
+              >
+                <span className="label">GitHub</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/mattbwright/"
+                className="icon fa-linkedin"
+              >
+                <span className="label">LinkedIn</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://twitter.com/matthewbwright"
+                className="icon fa-twitter"
+              >
                 <span className="label">Twitter</span>
               </a>
             </li>
             <li>
-              <a href="#" className="icon fa-facebook">
-                <span className="label">Facebook</span>
-              </a>
-            </li>
-            <li>
-              <a href="#" className="icon fa-instagram">
+              <a
+                href="https://www.instagram.com/mattwright42/"
+                className="icon fa-instagram"
+              >
                 <span className="label">Instagram</span>
               </a>
             </li>
             <li>
-              <a href="#" className="icon fa-github">
-                <span className="label">GitHub</span>
+              <a
+                href="https://www.facebook.com/matthew.wright.18007"
+                className="icon fa-facebook"
+              >
+                <span className="label">Facebook</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="mailto:matthewbwright@gmail.com?Subject=Portfolio%20Reachout"
+                className="icon fa-envelope"
+              >
+                <span className="label">Email</span>
               </a>
             </li>
           </ul>
