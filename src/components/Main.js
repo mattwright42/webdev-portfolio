@@ -26,6 +26,14 @@ const UL = {
   marginBottom: '30px',
 }
 
+const headerThree = {
+  textDecoration: 'underline',
+}
+
+const AboutP = {
+  marginBottom: '20px',
+}
+
 class Main extends React.Component {
   render() {
     let close = (
@@ -56,26 +64,32 @@ class Main extends React.Component {
           <span className="image main">
             <img src={pic01} alt="" />
           </span>
-          <p>
-            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
-            convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
-            magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-            By the way, check out my <a href="#work">awesome work</a>.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-            lectus. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas. In non lorem sit amet elit
-            placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
-          </p>
+          <div>
+            <a href="https://flexlog.app/">
+              <h3 style={headerThree}>Fitmetrix</h3>
+            </a>
+            <h4>Stack Used: ReactJS | NodeJS | SQL</h4>
+            <p style={AboutP}>
+              This app was part of my capstone with Lambda School. Our team was
+              given a wireframe of an app that was to be developed and we were
+              given the responsibility of choosing which stack to build the
+              application on as well as the design. We built the back-end using
+              Node.js and SQL while we built our front-end using React along
+              with a number of other libraries. Styling was completed using
+              styling-components.
+            </p>
+
+            <a href="https://gallant-tesla-82382f.netlify.com/">
+              <h3 style={headerThree}>Lambda Notes</h3>
+            </a>
+            <h4>Stack Used: ReactJS | NodeJS | SQL</h4>
+            <p style={AboutP}>
+              This application was developed as part of a project week at Lambda
+              School. We were given a mock-up and one week in order to complete
+              this project. The front-end was built using ReactJS while the
+              back-end was built using NodeJS and SQL.
+            </p>
+          </div>
           {close}
         </article>
 
@@ -145,6 +159,7 @@ class Main extends React.Component {
             <li>
               <a
                 href="https://github.com/mattwright42"
+                target="_blank"
                 className="icon fa-github"
               >
                 <span className="label">GitHub</span>
@@ -153,6 +168,7 @@ class Main extends React.Component {
             <li>
               <a
                 href="https://www.linkedin.com/in/mattbwright/"
+                target="_blank"
                 className="icon fa-linkedin"
               >
                 <span className="label">LinkedIn</span>
@@ -161,6 +177,7 @@ class Main extends React.Component {
             <li>
               <a
                 href="https://twitter.com/matthewbwright"
+                target="_blank"
                 className="icon fa-twitter"
               >
                 <span className="label">Twitter</span>
@@ -169,6 +186,7 @@ class Main extends React.Component {
             <li>
               <a
                 href="https://www.instagram.com/mattwright42/"
+                target="_blank"
                 className="icon fa-instagram"
               >
                 <span className="label">Instagram</span>
@@ -177,6 +195,7 @@ class Main extends React.Component {
             <li>
               <a
                 href="https://www.facebook.com/matthew.wright.18007"
+                target="_blank"
                 className="icon fa-facebook"
               >
                 <span className="label">Facebook</span>
