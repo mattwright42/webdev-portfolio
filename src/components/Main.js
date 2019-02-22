@@ -66,7 +66,7 @@ class Main extends React.Component {
           </span>
           <div>
             <a href="https://flexlog.app/">
-              <h3 style={headerThree}>Fitmetrix</h3>
+              <h3 style={headerThree}>FlexLog</h3>
             </a>
             <h4>Stack Used: ReactJS | NodeJS | SQL</h4>
             <p style={AboutP}>
