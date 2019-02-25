@@ -77,6 +77,8 @@ class Main extends React.Component {
               Node.js and SQL while we built our front-end using React along
               with a number of other libraries. Styling was completed using
               styling-components.
+
+              For this project, I worked specifically on: styling and theme for the web application, building/structuring the database, implementing uniform components for use across the app,and implementing dropdown menus for the UX. 
             </p>
 
             <a href="https://gallant-tesla-82382f.netlify.com/">
