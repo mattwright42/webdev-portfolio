@@ -176,33 +176,9 @@ class Main extends React.Component {
                 <span className="label">LinkedIn</span>
               </a>
             </li>
-            <li>
-              <a
-                href="https://twitter.com/matthewbwright"
-                target="_blank"
-                className="icon fa-twitter"
-              >
-                <span className="label">Twitter</span>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.instagram.com/mattwright42/"
-                target="_blank"
-                className="icon fa-instagram"
-              >
-                <span className="label">Instagram</span>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.facebook.com/matthew.wright.18007"
-                target="_blank"
-                className="icon fa-facebook"
-              >
-                <span className="label">Facebook</span>
-              </a>
-            </li>
+            
+            
+            
             <li>
               <a
                 href="mailto:matthewbwright@gmail.com?Subject=Portfolio%20Reachout"
