@@ -76,9 +76,10 @@ class Main extends React.Component {
               application on as well as the design. We built the back-end using
               Node.js and SQL while we built our front-end using React along
               with a number of other libraries. Styling was completed using
-              styling-components.
-
-              For this project, I worked specifically on: styling and theme for the web application, building/structuring the database, implementing uniform components for use across the app,and implementing dropdown menus for the UX. 
+              styling-components. For this project, I worked specifically on:
+              styling and theme for the web application, building/structuring
+              the database, implementing uniform components for use across the
+              app,and implementing dropdown menus for the UX.
             </p>
 
             <a href="https://gallant-tesla-82382f.netlify.com/">
@@ -110,8 +111,21 @@ class Main extends React.Component {
           </span>
           <p>
             I'm a software developer that enjoys creating responsive and
-            accessible full stack applications using the latest technologies.
-            I'm passionate about learning and helping others to learn as well.
+            accessible full stack applications using the latest technologies. I
+            am passionate about education and learning as a way to grow and
+            develop new skills.
+          </p>
+          <p>
+            Before I started web development, I taught high school orchestra for
+            ten years. I loved bringing new technology into my classroom and the
+            benefits that we enjoyed: a variety of opportunties for assessment
+            and feedback, instant collaboration, and access to a whole new array
+            of teaching tools. The most important thing that I have discovered
+            in both music and web development is that the creative process never
+            ends, and that practice makes perfect! My commitment to supporting
+            my family now drives my interest in development. I've really enjoyed
+            the opportunities I have found to take my creative energies in an
+            exciting new direction.
           </p>
           <p>
             I've spent the last ten months honing my programming skills with{' '}
@@ -176,9 +190,7 @@ class Main extends React.Component {
                 <span className="label">LinkedIn</span>
               </a>
             </li>
-            
-            
-            
+
             <li>
               <a
                 href="mailto:matthewbwright@gmail.com?Subject=Portfolio%20Reachout"
