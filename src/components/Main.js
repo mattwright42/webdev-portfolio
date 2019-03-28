@@ -81,7 +81,7 @@ class Main extends React.Component {
               the database, implementing uniform components for use across the
               app, and implementing dropdown menus for the UX. Click{' '}
               <a href="https://flexlog-journal-mbw.netlify.com/">here</a> for a
-              journal/blog about my experience on the FlexLog team:
+              journal/blog about my experience on the FlexLog team.
             </p>
 
             <a href="https://gallant-tesla-82382f.netlify.com/">
