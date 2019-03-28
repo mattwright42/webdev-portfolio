@@ -79,7 +79,9 @@ class Main extends React.Component {
               styling-components. For this project, I worked specifically on:
               styling and theme for the web application, building/structuring
               the database, implementing uniform components for use across the
-              app,and implementing dropdown menus for the UX.
+              app, and implementing dropdown menus for the UX. Click{' '}
+              <a href="https://flexlog-journal-mbw.netlify.com/">here</a> for a
+              journal/blog about my experience on the FlexLog team:
             </p>
 
             <a href="https://gallant-tesla-82382f.netlify.com/">
