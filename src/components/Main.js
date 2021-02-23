@@ -119,7 +119,7 @@ class Main extends React.Component {
             About
           </h2>
           <span className="image main">
-            <img src={pic02} alt="" />
+            <img src={pic02} alt="My family" />
           </span>
           <p>
             I'm a software developer that enjoys creating responsive and
@@ -140,7 +140,7 @@ class Main extends React.Component {
             exciting new direction.
           </p>
           <p>
-            I've spent the last ten months honing my programming skills with{' '}
+            In 2018, I spent ten months honing my programming skills with{' '}
             <a href="https://learn.lambdaschool.com/syllabus/cs-fsw">
               Lambda School
             </a>
@@ -148,6 +148,14 @@ class Main extends React.Component {
             provides an immersive hands-on curriculum with a focus on computer
             science, software engineering, and web development. You can see my
             work on <a href="https://github.com/mattwright42">GitHub</a>.
+          </p>
+          <p>
+            Since June of 2019, I've been working as a developer for Infosys,
+            Ltd. The past year I've been assigned to one of their largest health
+            care clients in Phoenix, AZ. I've been able to work on a custom web
+            app, as well as take on a role with the Operations Team in
+            Production Support in the Medicaid/Claims domain. I'm now ready to
+            seek out my next opportunity as a web developer.
           </p>
           {close}
         </article>
