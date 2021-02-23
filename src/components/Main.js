@@ -65,7 +65,17 @@ class Main extends React.Component {
             <img src={pic01} alt="" />
           </span>
           <div>
-            <a href="https://flexlog.app/">
+            <a href="https://react-shopper-mw.herokuapp.com/">
+              <h3 style={headerThree}>React Shopper</h3>
+            </a>
+            <h4>Stack Used: ReactJS | NodeJS | Stripe</h4>
+            <p style={AboutP}>
+              I've built a full-stack shopping cart application using React,
+              Node, and Stripe. This project allowed me to work on building and
+              deploying a React application, using best practices - including
+              React Hooks.
+            </p>
+            {/* <a href="https://flexlog.app/">
               <h3 style={headerThree}>FlexLog</h3>
             </a>
             <h4>Stack Used: ReactJS | NodeJS | SQL</h4>
@@ -82,9 +92,9 @@ class Main extends React.Component {
               app, and implementing dropdown menus for the UX. Click{' '}
               <a href="https://flexlog-journal-mbw.netlify.com/">here</a> for a
               journal/blog about my experience on the FlexLog team.
-            </p>
+            </p> */}
 
-            <a href="https://gallant-tesla-82382f.netlify.com/">
+            {/* <a href="https://gallant-tesla-82382f.netlify.com/">
               <h3 style={headerThree}>Lambda Notes</h3>
             </a>
             <h4>Stack Used: ReactJS | NodeJS | SQL</h4>
@@ -93,7 +103,7 @@ class Main extends React.Component {
               School. We were given a mock-up and one week in order to complete
               this project. The front-end was built using ReactJS while the
               back-end was built using NodeJS and SQL.
-            </p>
+            </p> */}
           </div>
           {close}
         </article>
