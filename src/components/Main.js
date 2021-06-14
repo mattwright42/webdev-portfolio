@@ -75,24 +75,13 @@ class Main extends React.Component {
               deploying a React application, using best practices - including
               React Hooks.
             </p>
-            {/* <a href="https://flexlog.app/">
-              <h3 style={headerThree}>FlexLog</h3>
+            <a href="https://wot-ipsum.herokuapp.com/">
+              <h3 style={headerThree}>WoT Ipsum</h3>
             </a>
-            <h4>Stack Used: ReactJS | NodeJS | SQL</h4>
+            <h4>Stack Used: NodeJS</h4>
             <p style={AboutP}>
-              This app was part of my capstone with Lambda School. Our team was
-              given a wireframe of an app that was to be developed and we were
-              given the responsibility of choosing which stack to build the
-              application on as well as the design. We built the back-end using
-              Node.js and SQL while we built our front-end using React along
-              with a number of other libraries. Styling was completed using
-              styling-components. For this project, I worked specifically on:
-              styling and theme for the web application, building/structuring
-              the database, implementing uniform components for use across the
-              app, and implementing dropdown menus for the UX. Click{' '}
-              <a href="https://flexlog-journal-mbw.netlify.com/">here</a> for a
-              journal/blog about my experience on the FlexLog team.
-            </p> */}
+              I built this web app to get some practice with and as a way to pay homage to on of my favorite fantasy series of all time: The Wheel of Time by Robert Jordan.
+            </p>
 
             {/* <a href="https://gallant-tesla-82382f.netlify.com/">
               <h3 style={headerThree}>Lambda Notes</h3>
