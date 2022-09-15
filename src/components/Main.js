@@ -135,15 +135,11 @@ class Main extends React.Component {
             </a>
             , a Computer Science &amp; Software Engineering Academy that
             provides an immersive hands-on curriculum with a focus on computer
-            science, software engineering, and web development. You can see my
-            work on <a href="https://github.com/mattwright42">GitHub</a>.
-          </p>
+            science, software engineering, and web development. 
+            {/* You can see my
+            work on <a href="https://github.com/mattwright42">GitHub</a>. */}
           <p>
-            Since June of 2019, I've been working as a developer for Infosys,
-            Ltd. The past year I've been assigned to one of their largest health
-            care clients in Phoenix, AZ. I've been able to work on a custom web
-            app, as well as take on a role with the Operations Team in
-            Production Support in the Medicaid/Claims domain. I'm now ready to
+            I most recently had a role as a junior developer for BluBanyan, working with their clients to develop and enhance their business in NetSuite, and building integrations for their external applications (Shopify, Salesforce, Hubspot) and NetSuite via Celigo. I'm now ready to
             seek out my next opportunity as a web developer.
           </p>
           {close}
