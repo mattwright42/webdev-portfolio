@@ -138,6 +138,7 @@ class Main extends React.Component {
             science, software engineering, and web development. 
             {/* You can see my
             work on <a href="https://github.com/mattwright42">GitHub</a>. */}
+            </p>
           <p>
             I most recently had a role as a junior developer for BluBanyan, working with their clients to develop and enhance their business in NetSuite, and building integrations for their external applications (Shopify, Salesforce, Hubspot) and NetSuite via Celigo. I'm now ready to
             seek out my next opportunity as a web developer.
