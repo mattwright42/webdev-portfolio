@@ -82,17 +82,13 @@ class Main extends React.Component {
             <p style={AboutP}>
               I built this web app to get some practice with and as a way to pay homage to on of my favorite fantasy series of all time: The Wheel of Time by Robert Jordan.
             </p>
-
-            {/* <a href="https://gallant-tesla-82382f.netlify.com/">
-              <h3 style={headerThree}>Lambda Notes</h3>
+            <a href="https://complimentr-js-mw.glitch.me/">
+              <h3 style={headerThree}>Complimentr</h3>
             </a>
-            <h4>Stack Used: ReactJS | NodeJS | SQL</h4>
+            <h4>Stack Used: JavaScript | NodeJS | Vue.js</h4>
             <p style={AboutP}>
-              This application was developed as part of a project week at Lambda
-              School. We were given a mock-up and one week in order to complete
-              this project. The front-end was built using ReactJS while the
-              back-end was built using NodeJS and SQL.
-            </p> */}
+              This project was built as a way to get better acquainted with APIs and how to make calls to them. Using the Twilio API and Twilio registered numbers, you can send a compliment via text message. It will also show up in the compliment feed above.
+            </p>
           </div>
           {close}
         </article>
