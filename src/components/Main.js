@@ -75,9 +75,9 @@ class Main extends React.Component {
           <a href="https://quizyourself.vercel.app/">
               <h3 style={headerThree}>Quiz Yourself</h3>
             </a>
-            <h4>Stack Used: ReactJS | NodeJS </h4>
+            <h4>Stack Used: ReactJS | Redux | Rest API </h4>
             <p style={AboutP}>
-              A trivia quiz web app. Using an API containing trivia in just about category imaginable, you can test your knowledge with as many questions as you like at various levels of difficulties.
+              A trivia quiz web app. Using the Open Trivia Database, you can test your knowledge with as many questions as you like at various levels of difficulties in just about every category imaginable!
             </p>
             <a href="https://react-shopper-mw.herokuapp.com/">
               <h3 style={headerThree}>React Shopper</h3>
