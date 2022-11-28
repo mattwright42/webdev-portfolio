@@ -89,7 +89,7 @@ class Main extends React.Component {
               deploying a React application, using best practices - including
               React Hooks.
             </p>
-            <a href="https://wot-ipsum.herokuapp.com/">
+            <a href="https://wot-ipsum.live/">
               <h3 style={headerThree}>WoT Ipsum</h3>
             </a>
             <h4>Stack Used: NodeJS</h4>
