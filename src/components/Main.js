@@ -79,7 +79,7 @@ class Main extends React.Component {
             <p style={AboutP}>
               A trivia quiz web app. Using the Open Trivia Database, you can test your knowledge with as many questions as you like at various levels of difficulties in just about every category imaginable!
             </p>
-            <a href="https://react-shopper-mw.herokuapp.com/">
+            <a href="https://react-shopper.fly.dev/">
               <h3 style={headerThree}>React Shopper</h3>
             </a>
             <h4>Stack Used: ReactJS | NodeJS | Stripe</h4>
